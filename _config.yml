@@ -13,7 +13,7 @@ name: "Boning Digital Arts"
 # github pages url
 baseurl: https://boningdigitalart.github.io/
 # repository name
-scope: Boning Digital Arts_ Gallery
+scope:
 
 # theme settings
 # _______________________________
