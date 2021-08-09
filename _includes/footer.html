@@ -1,0 +1,48 @@
+       <!-- FOOTER -->
+        <div class="footer">
+            
+            
+            <!-- FOOTER INNER -->
+            <div class="footer-inner">
+      
+                <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> {{site.author}} | Source Code Maintained by <a href="https://XinYaanZyoy.github.io">XinYaanZyoy</a></p>
+                
+                 <ul class="social-icons scroll-animated-from-right">
+                    {% if site.facebook %}
+                        <li><a href="{{site.facebook}}"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                     {% endif %}
+                    {% if site.twitter %}
+                    <li><a href="{{site.twitter}}"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                     {% endif %}
+                    {% if site.google-plus %}
+                    <li><a href="{{site.google-plus}}"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                     {% endif %}
+                    {% if site.linkedin %}
+                    <li><a href="{{site.linkedin}}"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>    
+                     {% endif %}
+                        {% if site.youtube %}
+                            <li> <a target="_blank" href="{{ site.youtube }}"><i class="fab fa-youtube text-muted" aria-hidden="true"></i></a></li>
+                     {% endif %}
+                        {% if site.instagram %}
+                             <li> <a target="_blank" href="{{ site.instagram }}"><i class="fab fa-instagram text-muted" aria-hidden="true"></i></a></li>
+                     {% endif %}
+                        {% if site.spotify %}
+                              <li> <a target="_blank" href="{{ site.spotify }}"><i class="fab fa-spotify text-muted" aria-hidden="true"></i></a> </li>
+                        {% endif %}
+                        {% if site.whatsapp %}
+                          <li> <a target="_blank" href="https://api.whatsapp.com/send?phone={{ site.whatsapp }}"><i class="fab fa-whatsapp text-muted" aria-hidden="true"></i></a> </li>
+                     {% endif %}
+                        {% if site.email %}
+                            <li><a target="_top" href="mailto:{{ site.email }}"><i class="fa fa-envelope text-muted" aria-hidden="true"></i></a></li>
+                     {% endif %}
+                        {% if site.messenger %}
+                            <li><a target="_blank" href="{{ site.messenger }}"><i class="fab fa-facebook-messenger text-muted" aria-hidden="true"></i></a> </li>
+                     {% endif %}
+                </ul> 
+            
+            </div>
+            <!-- /FOOTER INNER -->
+            
+
+        </div>
+        <!-- /FOOTER -->

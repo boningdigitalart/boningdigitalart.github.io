@@ -1,0 +1,73 @@
+# videos
+# _______________________________
+# append youtube video id in the list to post it to website
+video_arts:
+  - id: 5xpJeO_syN4
+  - id: EkPWrcezz7s
+  - id: KzTbYkp_FRg
+
+# site settings
+# ______________________________
+# name of the website
+name: "Art Gallery"
+# github pages url
+baseurl: https://XinYaanZyoy.github.io
+# repository name
+scope: Art_Gallery
+
+# theme settings
+# _______________________________
+# use this google tool for finding hexcode for your fav color https://www.google.com/search?q=color+picker
+# color of the theme on android phones
+theme_color: "#ccc"
+# background color of caption page
+caption_bg_color: "#363636"
+# text color of captions
+caption_text_color: "#fff"
+
+# metadata settings
+# _________________________________
+# greetings on the gome page
+greeting: "Hi!"
+# author of the website
+author: "XinYaanZyoy"
+# heading on the home and about page
+heading: "This is my Art Gallery"
+# description of this website for about page and google search
+description: "the digital collection of my special arts"
+
+# graphics settings
+# _____________________________________
+# icon for browser
+favicon: "assets/img/favicon.ico"
+# logo for home and about page
+logo: "assets/img/logo.png"
+# author's personal pic for about page
+pic: "assets/img/me.jpg"
+
+# Author's details
+# ________________________________________________
+# author's email
+email: "XinYaanZyoy@gmail.com"
+# author's socials
+twitter: https://twitter.com/XinYaanZyoy
+facebook: https://www.facebook.com/49yatriyaan.love
+instagram: https://www.instagram.com/49yatriyaan.love/
+youtube:
+whatsapp: +918155903610
+google-plus:
+linkedin: https://www.linkedin.com/in/xin-yaan-zyoy-1563b6154/
+spotify: https://xinyaanzyoy.github.io/podcast/
+messenger: https://www.messenger.com/t/49yatriyaan.love
+
+# jekyll Settings
+# _________________________________
+collections:
+  arts:
+    output: true
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+theme: jekyll-theme-cayman
